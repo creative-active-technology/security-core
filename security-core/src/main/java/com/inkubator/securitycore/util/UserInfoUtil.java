@@ -73,4 +73,5 @@ public class UserInfoUtil {
         String role = roles.toString();
         return role.substring(1, role.length() - 1);
     }
+    
 }
