@@ -13,6 +13,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-security-version>3.2.0.RELEASE</spring-security-version>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -41,9 +43,9 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>com.incubator.it</groupId>
-            <artifactId>common-login</artifactId>
-            <version>1.0-RELEASE</version>
+            <groupId>com.inkubator</groupId>
+            <artifactId>common-logging</artifactId>
+            <version>1.0.0.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>javax</groupId>
@@ -54,7 +56,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>15.0</version>
+            <version>14.0</version>
         </dependency>
     </dependencies>
 
