@@ -57,13 +57,12 @@ public class UserInfoUtil {
     }
 
     public static Boolean hasRole(String roleName) {
-        Boolean isHasRole = null;
+        Boolean isHasRole = Boolean.FALSE;
         for (String role : getRoles()) {
             if (role.equalsIgnoreCase(roleName)) {
                 isHasRole = Boolean.TRUE;
-            } else {
-                isHasRole = Boolean.FALSE;
-            }
+                break;
+            } 
         }
         return isHasRole;
     }
